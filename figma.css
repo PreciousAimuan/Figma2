@@ -1,0 +1,240 @@
+* {
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;  /*  note, the diff */
+    background-color: black;
+    /* height: 960px; */
+    
+}
+.container{
+    display: flex;
+    align-items: flex-start;  
+    box-sizing: border-box;
+    padding-left: 54px;    /* 1 rem equals 16px */
+    background-color: #ffffff;
+    border-radius: 60px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-radius: 60px;
+
+.leftbox{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        margin: 45px 15.7px 0 0; /* Recall, Top to side => clockwise, since i've placed a padding on the left, there's no need for margin on the left for now> 
+        align-items: center;
+        /* height: 100%; */
+        flex-basis: 50%;
+        /* border-bottom-left-radius: 60px; */
+    }
+
+        .header{
+            width: 100%;  /* let the header take its full width space*/
+            display: flex;
+            align-items: flex-start;
+            flex-shrink: 0;
+            justify-content: space-between;
+        }
+            .logo{
+                flex-shrink: 0;
+                /* margin: auto; */
+                width: 410x;
+                height: 51px;
+                position: relative;
+                
+                /* background-size: 100.269% 100%;
+                background-position: 0.0206rem 0; */
+            }
+            .logo img{
+                width: 120px;
+                height: 40px;
+                /* padding: auto 10px auto 10px; */
+            
+            }
+            .language {
+                box-sizing: border-box;
+                width: 115px;
+                position: relative;
+                border: 1px solid #d2d2d2;
+                padding: 17px 24px 11px 24px;
+                height: 50px;
+                /* overflow: hidden; */
+                border-radius: 30px;
+                flex-shrink: 0;
+        
+            }
+                .lend{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: flex-start;
+                }
+                    .australia{
+                        width: 24px;
+                        height: 16px;
+                        position: relative;
+                        /* background-size: 100% 150%; */
+                        flex-shrink: 0;
+                        margin-right: 6px;
+                    }
+                    .end{
+                        display: flex;
+                        align-items: flex-start;
+                        flex-shrink: 0;
+                        margin-top: 2px;
+                    }
+                        .en{
+                            flex-shrink: 0;
+                            margin-right: 0.4rem;
+                            font-size: 12px;
+                            color: #000000;
+                            font-family: Cabin, 'Source Sans Pro';
+                        }
+                        /* .Arrow{
+                            width: 12px;
+                            height: 12px;
+                            object-fit: cover;
+                            vertical-align: top;
+                            flex-shrink: 0;
+                          } */
+
+        .content{
+            /*padding: 20px 20px 0 20px;  could also change */
+            width: 100%;
+            align-items: center; 
+            display: flex;
+            flex-direction: column; /* Important */
+            flex-shrink: 0;
+            box-sizing: border-box;
+        }
+        .WelcomeHeading{
+    
+            margin-bottom: 20px;
+            /* justify-content: center; */
+            /* text-align: center;  */
+        }
+            .welcome-ruix-TaB{
+                display: flex;
+                text-transform: uppercase;
+                font-size: 50px;
+                justify-content: center;
+                font-family: Bebas Neue, 'Source Sans Pro';
+            }
+            .welcome-mini-msg{
+                margin-top: 10px;
+                font-family: Urbanist;
+                color: #000000;
+                font-size: 17px;
+                font-weight: 400;
+            }
+            .gcontent{
+            display: flex;
+            /* margin: 0 100px 0 100px; */
+            border: 1px solid #D2D2D2;
+            width: 200px;
+            line-height: 25px;
+            border-radius: 4px;
+            padding: 5px 70px;
+            }
+            .gicon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .continue-with-google{
+                display: flex;
+                color: #2E2E2E;
+                font-family: Cabin; 
+                font-weight: 400;
+               
+            }
+            .line1{
+                /* display: flex; */
+                align-items: center;
+                margin: 30px 30px;
+                /* border: 1px black; */
+                display: inline-flex;
+                gap: 16px;
+            }
+                .line1 hr{
+                    width: 60px;
+                    height: 1px;
+                }
+                .or{
+                    font-family: Cabin;
+                    font-weight: 400;
+                }
+                .FCRR{
+                   
+                    display: inline-flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 20px;
+                }
+                .CR{
+                    font-family: Cabin;
+                    font-weight: 400;
+                }
+                .form{
+                    display: inline-flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 20px;
+                    width: 420px;
+
+                }
+               .input{
+                height: 52px;
+                flex-shrink: 0;
+                width: 410px;
+                height: 30px;
+                border-radius: 6px;
+                border: 1px solid #D2D2D2;
+                padding: 3px;
+               }
+
+               .color{
+                    color: #ffffff;
+                    font-weight: 400;
+               }
+               .register{
+                width: 420px;
+                height: 50px;
+                flex-shrink: 0;
+                border-radius: 30px;
+                background: #000;
+                margin-bottom: 10px;
+               }
+               .login{
+                    color: #fec00f;
+               }
+               .already{
+                    font-weight: 400;
+               }
+               
+    .imgBox {
+        width: 50%;
+        flex-basis: 50%;
+    }
+}
+/* for responiveness */
+@media (max-width: 768px){
+    .container{
+        height: 100%;
+    }
+    .leftbox{
+        flex: 1 0 100%;
+        height: 100vh;
+    }
+    .imgBox{
+        display: none;
+    }
+}
